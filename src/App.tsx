@@ -365,7 +365,7 @@ export default function App() {
       <footer className="py-12 bg-stone-50 border-t border-stone-200 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <p className="font-black text-stone-400 text-sm uppercase tracking-widest mb-6 leading-relaxed">
-            Vida Doce com Propósito © 2026<br/>
+            Vida Doce Com Proposito © 2026<br/>
             Todos os direitos reservados
           </p>
           <div className="flex justify-center gap-8 text-xs font-bold text-stone-400 uppercase">
