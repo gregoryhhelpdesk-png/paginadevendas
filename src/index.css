@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Montserrat", system-ui, sans-serif;
+  --color-primary: #16a34a;
+  --color-primary-dark: #15803d;
+  --color-accent: #ef4444;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-stone-900 bg-stone-50;
+  }
+}
+
+@layer components {
+  .cta-shadow {
+    box-shadow: 0 6px 0 rgb(21, 128, 61);
+  }
+  
+  .cta-shadow:hover {
+    box-shadow: 0 2px 0 rgb(21, 128, 61);
+  }
+}
